@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#071b18">
+
+    <title>ENEM 2026 | Reta Final</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+
+    <!-- CABEÇALHO -->
+    <header class="topbar">
+
+        <a class="brand" href="#" aria-label="ENEM Reta Final">
+
+            <span class="brand-mark">E<span>.</span></span>
+
+            <span class="brand-copy">
+                <strong>ENEM 2026</strong>
+                <small>RETA FINAL</small>
+            </span>
+
+        </a>
+
+        <div class="top-actions">
+
+            <span class="cloud-status" id="cloudStatus">
+                <i></i>
+                Progresso local
+            </span>
+
+            <button class="google-button"
+                    id="googleSignIn"
+                    type="button">
+
+                <svg viewBox="0 0 48 48" aria-hidden="true">
+                    <path fill="#EA4335"
+                          d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.01 13.22l7.98 6.19C11.99 13.72 17.49 9.5 24 9.5z"/>
+
+                    <path fill="#4285F4"
+                          d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.75 7.18l7.73 6C44.43 37.95 46.98 31.87 46.98 24.55z"/>
+
+                    <path fill="#FBBC05"
+                          d="M9.99 28.59A14.4 14.4 0 0 1 9.2 24c0-1.59.28-3.13.78-4.59l-7.98-6.19A23.9 23.9 0 0 0 0 24c0 3.87.93 7.53 2.58 10.78l7.41-6.19z"/>
+
+                    <path fill="#34A853"
+                          d="M24 48c6.48 0 11.93-2.13 15.91-5.8l-7.73-6c-2.14 1.44-4.89 2.3-8.18 2.3-6.51 0-12.01-4.22-14.01-9.91l-7.98 6.19C6.51 43.62 14.62 48 24 48z"/>
+                </svg>
+
+                <span id="googleButtonText">
+                    Salvar com Google
+                </span>
+
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <main class="page-shell">
+
+        <!-- APRESENTAÇÃO -->
+        <section class="hero">
+
+            <div class="hero-copy">
+
+                <p class="eyebrow">
+                    <span class="eyebrow-line"></span>
+                    PLANO DE ATAQUE · 2026
+                </p>
+
+                <h1>
+                    Agora é<br>
+                    <em>reta final.</em>
+                </h1>
+
+                <p class="hero-description">
+                    Menos estudo aleatório. Mais revisão estratégica,
+                    questões corrigidas e consistência até o dia da prova.
+                </p>
+
+                <div class="hero-meta">
+
+                    <span>
+                        <b class="meta-dot green"></b>
+                        1º dia · 08 nov
+                    </span>
+
+                    <span>
+                        <b class="meta-dot blue"></b>
+                        2º dia · 15 nov
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- ELEMENTO VISUAL -->
+            <div class="hero-orbit" aria-hidden="true">
+
+                <div class="orbit orbit-a"></div>
+                <div class="orbit orbit-b"></div>
+
+                <div class="orbit-core">
+                    <span>11</span>
+                    <small>DIAS</small>
+                </div>
+
+                <span class="orbit-label label-top">
+                    FOCO
+                </span>
+
+                <span class="orbit-label label-bottom">
+                    EXECUÇÃO
+                </span>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROGRESSO GERAL -->
+        <section class="progress-panel"
+                 aria-labelledby="progressTitle">
+
+            <div class="progress-main">
+
+                <div>
+
+                    <p class="eyebrow">
+                        SEU DESEMPENHO
+                    </p>
+
+                    <h2 id="progressTitle">
+                        Progresso do plano
+                    </h2>
+
+                    <p class="muted" id="progressText">
+                        0 de 0 tarefas concluídas
+                    </p>
+
+                </div>
+
+                <div class="progress-number">
+                    <span id="progressPercent">0</span>
+                    <small>%</small>
+                </div>
+
+            </div>
+
+
+            <div class="progress-track">
+
+                <div class="progress-fill"
+                     id="progressFill">
+                </div>
+
+            </div>
+
+
+            <div class="progress-bottom">
+
+                <span>
+                    <span class="legend-dot"></span>
+                    Tarefas concluídas
+                </span>
+
+                <span id="remainingText">
+                    Tudo pela frente. Comece pela tarefa de hoje.
+                </span>
+
+            </div>
+
+        </section>
+
+
+        <!-- FILTROS -->
+        <section class="toolbar">
+
+            <div>
+
+                <p class="eyebrow">
+                    ROTEIRO DE ESTUDO
+                </p>
+
+                <h2>
+                    Seu cronograma
+                </h2>
+
+            </div>
+
+
+            <div class="filters"
+                 role="group"
+                 aria-label="Filtrar cronograma">
+
+                <button class="filter active"
+                        data-filter="todos"
+                        type="button">
+                    Todos
+                </button>
+
+                <button class="filter"
+                        data-filter="primeiro"
+                        type="button">
+                    1º dia
+                </button>
+
+                <button class="filter"
+                        data-filter="exatas"
+                        type="button">
+                    Exatas
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- O JAVASCRIPT INSERE OS 11 DIAS AQUI -->
+        <section class="schedule"
+                 id="schedule"
+                 aria-label="Tarefas diárias">
+
+        </section>
+
+
+        <!-- CRONOGRAMA APÓS O PRIMEIRO DIA -->
+        <section class="after-exam">
+
+            <div class="after-icon">
+                ↗
+            </div>
+
+            <div class="after-copy">
+
+                <p class="eyebrow">
+                    DEPOIS DO PRIMEIRO DIA
+                </p>
+
+                <h2>
+                    Mais 6 dias para Exatas
+                </h2>
+
+                <p>
+                    De 9 a 14 de novembro, a prioridade muda para
+                    Matemática e Ciências da Natureza. Mantenha a
+                    revisão ativa e corrija cada erro.
+                </p>
+
+            </div>
+
+
+            <div class="after-days" id="afterDays">
+
+                <!-- O JAVASCRIPT INSERE OS DIAS AQUI -->
+
+            </div>
+
+        </section>
+
+
+        <!-- RODAPÉ -->
+        <footer class="footer">
+
+            <span>
+                ENEM 2026 <b>·</b> FOCO NO PROCESSO
+            </span>
+
+            <button id="resetProgress"
+                    class="text-button"
+                    type="button">
+                Zerar marcações
+            </button>
+
+        </footer>
+
+    </main>
+
+
+    <!-- AVISOS -->
+    <div class="toast"
+         id="toast"
+         role="status"
+         aria-live="polite">
+    </div>
+
+
+    <!-- AVISO DE CONFIGURAÇÃO DO FIREBASE -->
+    <dialog class="modal" id="setupModal">
+
+        <div class="modal-content">
+
+            <div class="modal-icon">
+                ☁
+            </div>
+
+            <p class="eyebrow">
+                SALVAMENTO NA NUVEM
+            </p>
+
+            <h2>
+                Conecte seu Firebase
+            </h2>
+
+            <p>
+                O login Google ainda não está configurado.
+                Adicione as credenciais do seu projeto Firebase
+                no arquivo <code>script.js</code> e siga o README.
+            </p>
+
+            <button class="primary-button"
+                    id="closeSetup"
+                    type="button">
+                Entendi
+            </button>
+
+        </div>
+
+    </dialog>
+
+
+    <!-- JAVASCRIPT -->
+    <script type="module" src="script.js"></script>
+
+</body>
+</html>
