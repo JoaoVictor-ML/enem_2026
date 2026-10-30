@@ -1,4 +1,3 @@
-
 /* =========================================================
    ENEM 2026 — RETA FINAL
    Cronograma, progresso local e sincronização Firebase
@@ -223,9 +222,9 @@ const days = [
                 "Inclua agente, ação, meio ou modo, finalidade e detalhamento, respeitando os direitos humanos."
             ],
             [
-                "linguagens",
-                "Coesão e conectivos",
-                "Revise relações de causa, consequência, oposição, concessão, conclusão e exemplificação."
+                "humanas",
+                "História do Brasil: Colônia, Império e República",
+                "Revise colonização, escravidão, Independência, abolição e formação da República, relacionando os processos às questões sociais."
             ],
             [
                 "exatas",
@@ -233,9 +232,9 @@ const days = [
                 "Pratique aumentos, descontos sucessivos, variação percentual e juros simples."
             ],
             [
-                "linguagens",
-                "Questões de provas anteriores",
-                "Resolva um bloco de questões e anote os assuntos que ainda geram dúvidas."
+                "humanas",
+                "Geografia: população e urbanização",
+                "Revise crescimento populacional, migrações, transição demográfica, urbanização e problemas socioespaciais."
             ]
         ]
     },
@@ -252,9 +251,9 @@ const days = [
                 "Revise características das fases modernistas, contexto histórico e ruptura com padrões tradicionais."
             ],
             [
-                "linguagens",
-                "Poesia e interpretação literária",
-                "Analise voz poética, imagens, linguagem figurada, contexto e relação entre forma e conteúdo."
+                "humanas",
+                "Filosofia: ética e política",
+                "Revise ética, justiça, virtude, poder, democracia e contrato social, relacionando conceitos a situações contemporâneas."
             ],
             [
                 "linguagens",
@@ -272,9 +271,9 @@ const days = [
                 "Resolva problemas de contagem com etapas sucessivas e restrições simples."
             ],
             [
-                "redacao",
-                "Correção da redação",
-                "Reescreva os trechos mais fracos do texto anterior, priorizando argumentação e coesão."
+                "humanas",
+                "Sociologia: cultura e socialização",
+                "Estude cultura, identidade, etnocentrismo, relativismo cultural e instituições de socialização."
             ]
         ]
     },
@@ -291,14 +290,14 @@ const days = [
                 "Relacione movimentos artísticos ao contexto histórico, às características estéticas e às críticas sociais."
             ],
             [
-                "linguagens",
-                "Publicidade e comunicação",
-                "Analise campanhas, charges, tirinhas, memes e anúncios considerando imagem, texto e intenção."
+                "humanas",
+                "Geografia: globalização e geopolítica",
+                "Revise globalização, blocos econômicos, relações de poder, conflitos, organismos internacionais e nova ordem mundial."
             ],
             [
-                "linguagens",
-                "Tecnologia e comunicação",
-                "Revise cultura digital, circulação de informações, mídias, persuasão e leitura crítica."
+                "humanas",
+                "História geral: mundo moderno e contemporâneo",
+                "Retome Iluminismo, Revolução Industrial, Revolução Francesa, imperialismo e guerras mundiais."
             ],
             [
                 "exatas",
@@ -325,14 +324,14 @@ const days = [
         subtitle: "Produção textual e correção de erros",
         tasks: [
             [
-                "redacao",
-                "Segunda redação completa",
-                "Escreva outro texto cronometrado, buscando melhorar os pontos identificados na primeira correção."
+                "humanas",
+                "Filosofia: conhecimento e pensamento moderno",
+                "Revise racionalismo, empirismo, ciência, senso comum e critérios de construção do conhecimento."
             ],
             [
-                "redacao",
-                "Análise da argumentação",
-                "Confira se os dois parágrafos de desenvolvimento apresentam argumentos distintos e bem explicados."
+                "humanas",
+                "Sociologia: trabalho e desigualdade",
+                "Estude divisão social do trabalho, classes sociais, desigualdade, estratificação e mudanças no mundo do trabalho."
             ],
             [
                 "linguagens",
@@ -360,33 +359,38 @@ const days = [
     {
         date: "04/11",
         weekday: "QUARTA-FEIRA",
-        title: "Simulado de Linguagens",
-        subtitle: "Treino com tempo e revisão de erros",
+        title: "Revisão de Humanas e Natureza",
+        subtitle: "Consolidação dos principais conteúdos",
         tasks: [
             [
-                "linguagens",
-                "Bloco cronometrado de Linguagens",
-                "Resolva um conjunto de questões de provas anteriores em tempo controlado."
+                "humanas",
+                "História: Brasil República",
+                "Revise República Velha, Era Vargas, ditadura militar, redemocratização e Constituição de 1988."
             ],
             [
-                "linguagens",
-                "Correção do simulado",
-                "Classifique os erros: interpretação, conteúdo, distração, falta de tempo ou escolha de alternativa."
+                "humanas",
+                "Geografia: meio ambiente",
+                "Estude mudanças climáticas, desmatamento, biomas brasileiros, impactos ambientais e sustentabilidade."
             ],
             [
-                "redacao",
-                "Revisão da intervenção",
-                "Confira se a proposta de intervenção é concreta, detalhada e relacionada ao problema discutido."
+                "humanas",
+                "Sociologia: cidadania e movimentos sociais",
+                "Revise direitos civis, políticos e sociais, participação popular e movimentos sociais."
             ],
             [
-                "exatas",
-                "Revisão dos pontos fracos",
-                "Retome os assuntos matemáticos com maior número de erros nos exercícios anteriores."
+                "natureza",
+                "Ecologia",
+                "Revise cadeias e teias alimentares, relações ecológicas, ciclos biogeoquímicos e impactos ambientais."
             ],
             [
-                "linguagens",
-                "Leitura de textos multimodais",
-                "Treine a leitura conjunta de texto, imagens, gráficos, tabelas e elementos visuais."
+                "natureza",
+                "Física: eletricidade",
+                "Revise potência elétrica, consumo de energia, resistência, tensão e corrente elétrica."
+            ],
+            [
+                "natureza",
+                "Química: soluções",
+                "Pratique concentração comum, diluição, mistura de soluções e interpretação de rótulos."
             ]
         ]
     },
@@ -394,38 +398,38 @@ const days = [
     {
         date: "05/11",
         weekday: "QUINTA-FEIRA",
-        title: "Consolidar pontos fracos",
-        subtitle: "Revisão direcionada ao que mais erra",
+        title: "Revisão geral e questões",
+        subtitle: "Treino com provas anteriores",
         tasks: [
             [
+                "humanas",
+                "História geral: guerras e conflitos",
+                "Revise imperialismo, Primeira Guerra Mundial, Segunda Guerra Mundial, nazifascismo e Guerra Fria."
+            ],
+            [
+                "humanas",
+                "Geografia: questão agrária",
+                "Estude estrutura fundiária, concentração de terras, agronegócio, agricultura familiar e conflitos no campo."
+            ],
+            [
+                "humanas",
+                "Filosofia: democracia e cidadania",
+                "Revise democracia, participação política, direitos humanos, justiça e organização do Estado."
+            ],
+            [
+                "humanas",
+                "Questões de Ciências Humanas",
+                "Resolva questões de História, Geografia, Filosofia e Sociologia e analise os erros."
+            ],
+            [
                 "linguagens",
-                "Revisão dos erros de interpretação",
-                "Releia as questões erradas e identifique a evidência textual que sustenta a alternativa correta."
-            ],
-            [
-                "redacao",
-                "Treino de introdução e conclusão",
-                "Escreva introduções com tese explícita e conclusões com intervenção completa."
+                "Interpretação de textos",
+                "Resolva questões de Linguagens priorizando leitura crítica, contexto e finalidade comunicativa."
             ],
             [
                 "exatas",
-                "Análise combinatória",
-                "Diferencie princípio fundamental da contagem, permutação, arranjo e combinação."
-            ],
-            [
-                "exatas",
-                "Exercícios de contagem",
-                "Resolva problemas identificando se a ordem importa e se todos os elementos são utilizados."
-            ],
-            [
-                "exatas",
-                "Física: mecânica e energia",
-                "Revise velocidade média, leis de Newton, trabalho, potência e conservação de energia."
-            ],
-            [
-                "natureza",
-                "Biologia: ecologia",
-                "Revise cadeias alimentares, fluxo de energia, ciclos biogeoquímicos e impactos ambientais."
+                "Revisão de Matemática",
+                "Retome os assuntos com maior número de erros no seu caderno de questões."
             ]
         ]
     },
@@ -433,38 +437,38 @@ const days = [
     {
         date: "06/11",
         weekday: "SEXTA-FEIRA",
-        title: "Terceira redação e revisão final",
-        subtitle: "Consolidar o que já foi aprendido",
+        title: "Simulado e revisão direcionada",
+        subtitle: "Treino de resistência e estratégia",
         tasks: [
             [
-                "redacao",
-                "Terceira redação completa",
-                "Faça a última redação completa antes da prova, respeitando o tempo de planejamento e escrita."
+                "geral",
+                "Simulado de Linguagens e Humanas",
+                "Resolva questões de provas anteriores respeitando o tempo disponível para o primeiro dia."
+            ],
+            [
+                "geral",
+                "Correção do simulado",
+                "Identifique erros por falta de conteúdo, interpretação ou administração do tempo."
             ],
             [
                 "redacao",
-                "Checklist das cinco competências",
-                "Verifique norma-padrão, tema, repertório, organização argumentativa, coesão e intervenção."
+                "Planejamento de redação",
+                "Faça um planejamento completo com tese, argumentos, repertório e proposta de intervenção."
+            ],
+            [
+                "humanas",
+                "Revisão dos erros de Humanas",
+                "Retome os conceitos de História, Geografia, Filosofia e Sociologia que apareceram nas questões erradas."
             ],
             [
                 "linguagens",
-                "Questões mistas",
-                "Resolva um bloco curto com gêneros textuais, literatura, artes, publicidade e interpretação."
+                "Revisão dos erros de Linguagens",
+                "Retome interpretação, gêneros textuais, funções da linguagem e recursos expressivos."
             ],
             [
-                "linguagens",
-                "Repertórios e conectivos",
-                "Revise repertórios que domina e conectivos que utiliza com segurança, sem decorar citações aleatórias."
-            ],
-            [
-                "exatas",
-                "Fórmulas essenciais",
-                "Revise porcentagem, geometria, estatística, probabilidade, funções e conversões de unidades."
-            ],
-            [
-                "exatas",
-                "Caderno de erros",
-                "Resolva novamente algumas questões que errou e explique o raciocínio correto."
+                "geral",
+                "Organização para a prova",
+                "Confira documento, canetas, cartão de confirmação e logística de deslocamento."
             ]
         ]
     },
@@ -472,32 +476,27 @@ const days = [
     {
         date: "07/11",
         weekday: "SÁBADO",
-        title: "Véspera da prova",
-        subtitle: "Revisão leve, organização e descanso",
+        title: "Véspera do primeiro dia",
+        subtitle: "Revisão leve e descanso",
         tasks: [
             [
                 "linguagens",
                 "Revisão leve de Linguagens",
-                "Leia seu resumo de interpretação, gêneros, figuras de linguagem, literatura e artes."
+                "Revise interpretação, gêneros textuais, literatura e artes sem tentar aprender conteúdos novos."
+            ],
+            [
+                "humanas",
+                "Revisão leve de Ciências Humanas",
+                "Leia seus resumos de História, Geografia, Filosofia e Sociologia e retome conceitos-chave."
             ],
             [
                 "redacao",
                 "Estrutura da redação",
-                "Memorize a lógica de organização do texto, não uma redação pronta para reproduzir."
-            ],
-            [
-                "exatas",
-                "Revisão de fórmulas",
-                "Faça uma leitura breve das fórmulas essenciais, sem iniciar assuntos novos ou extensos."
+                "Relembre a estrutura dissertativo-argumentativa e os elementos da proposta de intervenção."
             ],
             [
                 "geral",
-                "Documentos e materiais",
-                "Separe documento válido, canetas esferográficas pretas de material transparente e o necessário para a prova."
-            ],
-            [
-                "geral",
-                "Confirmar local e trajeto",
+                "Preparação para o ENEM",
                 "Confira o Cartão de Confirmação, o endereço da prova e o tempo necessário para chegar."
             ],
             [
@@ -759,36 +758,36 @@ function updateGoogleButton() {
 
         googleSignInButton.setAttribute(
             "title",
-            "Entre com Google para sincronizar seu progresso."
+            "Entrar com Google"
         );
     }
 }
 
-function normalizeProgress(value) {
-    if (!value || typeof value !== "object") {
-        return { completed: [] };
-    }
 
-    const completed = Array.isArray(value.completed)
-        ? value.completed.filter(item => typeof item === "string")
-        : [];
-
-    return {
-        completed: [...new Set(completed)]
-    };
-}
+/* =========================================================
+   7. PROGRESSO LOCAL
+   ========================================================= */
 
 function loadLocalProgress() {
     try {
-        const stored = localStorage.getItem(STORAGE_KEY);
+        const saved = localStorage.getItem(STORAGE_KEY);
 
-        if (!stored) {
+        if (!saved) {
             return { completed: [] };
         }
 
-        return normalizeProgress(JSON.parse(stored));
+        const parsed = JSON.parse(saved);
+
+        if (!Array.isArray(parsed.completed)) {
+            return { completed: [] };
+        }
+
+        return {
+            completed: parsed.completed
+        };
     } catch (error) {
-        console.error("Erro ao carregar o progresso local:", error);
+        console.error("Erro ao carregar progresso:", error);
+
         return { completed: [] };
     }
 }
@@ -800,10 +799,10 @@ function saveLocalProgress() {
             JSON.stringify(progress)
         );
     } catch (error) {
-        console.error("Erro ao salvar o progresso local:", error);
+        console.error("Erro ao salvar progresso:", error);
 
         showToast(
-            "Não foi possível salvar no navegador. Verifique o armazenamento.",
+            "Não foi possível salvar o progresso local.",
             "error"
         );
     }
@@ -814,15 +813,17 @@ function isCompleted(taskId) {
 }
 
 function setCompleted(taskId, completed) {
-    const updated = new Set(progress.completed);
+    if (isApplyingCloudData) return;
 
     if (completed) {
-        updated.add(taskId);
+        if (!progress.completed.includes(taskId)) {
+            progress.completed.push(taskId);
+        }
     } else {
-        updated.delete(taskId);
+        progress.completed = progress.completed.filter(
+            id => id !== taskId
+        );
     }
-
-    progress.completed = [...updated];
 
     saveLocalProgress();
     updateProgressDisplay();
@@ -832,30 +833,18 @@ function setCompleted(taskId, completed) {
     }
 }
 
-function getAllTasks() {
-    const regularTasks = days.flatMap((day, dayIndex) =>
-        day.tasks.map((task, taskIndex) => ({
-            id: `day-${dayIndex}-task-${taskIndex}`,
-            dayIndex,
-            taskIndex,
-            task
-        }))
-    );
-
-    const laterTasks = afterDays.flatMap((day, dayIndex) =>
-        day.tasks.map((task, taskIndex) => ({
-            id: `after-${dayIndex}-task-${taskIndex}`,
-            dayIndex,
-            taskIndex,
-            task
-        }))
-    );
-
-    return [...regularTasks, ...laterTasks];
-}
-
 function getTotalTaskCount() {
-    return getAllTasks().length;
+    const firstDays = days.reduce(
+        (total, day) => total + day.tasks.length,
+        0
+    );
+
+    const secondDays = afterDays.reduce(
+        (total, day) => total + day.tasks.length,
+        0
+    );
+
+    return firstDays + secondDays;
 }
 
 function getCompletedTaskCount() {
@@ -864,193 +853,199 @@ function getCompletedTaskCount() {
 
 
 /* =========================================================
-   7. RENDERIZAÇÃO DAS TAREFAS
+   8. CONSTRUÇÃO DAS TAREFAS
    ========================================================= */
-
-function categoryLabel(category) {
-    const labels = {
-        linguagens: "LINGUAGENS",
-        redacao: "REDAÇÃO",
-        exatas: "EXATAS",
-        humanas: "HUMANAS",
-        natureza: "NATUREZA",
-        geral: "GERAL"
-    };
-
-    return labels[category] || category.toUpperCase();
-}
 
 function createTaskHTML(task, taskId) {
     const [category, title, description] = task;
-    const checked = isCompleted(taskId);
+
+    const completed = isCompleted(taskId);
+
+    const categoryNames = {
+        linguagens: "Linguagens",
+        redacao: "Redação",
+        exatas: "Matemática",
+        humanas: "Humanas",
+        natureza: "Natureza",
+        geral: "Geral"
+    };
 
     return `
-        <label class="task-item">
+        <label class="task-item ${completed ? "completed" : ""}">
             <input
                 type="checkbox"
                 data-task-id="${escapeHTML(taskId)}"
-                ${checked ? "checked" : ""}
-                aria-label="${escapeHTML(title)}"
+                ${completed ? "checked" : ""}
             >
 
-            <span class="task-copy">
-                <span class="task-title">
-                    ${escapeHTML(title)}
+            <span class="task-checkbox"></span>
+
+            <span class="task-content">
+                <span class="task-category ${escapeHTML(category)}">
+                    ${escapeHTML(categoryNames[category] || category)}
                 </span>
+
+                <strong>${escapeHTML(title)}</strong>
 
                 <span class="task-description">
                     ${escapeHTML(description)}
                 </span>
             </span>
-
-            <span class="day-tag ${escapeHTML(category)}">
-                ${escapeHTML(categoryLabel(category))}
-            </span>
         </label>
     `;
 }
 
-function createDayHTML(day, dayIndex) {
-    const completedCount = day.tasks.filter((task, taskIndex) =>
-        isCompleted(`day-${dayIndex}-task-${taskIndex}`)
-    ).length;
 
-    const completedDay =
-        completedCount === day.tasks.length;
-
-    const categories = [
-        ...new Set(day.tasks.map(task => task[0]))
-    ];
-
-    const hasExatas = day.tasks.some(
-        task => task[0] === "exatas"
-    );
-
-    const hasFirstDaySubjects = day.tasks.some(
-        task => ["linguagens", "redacao", "humanas"].includes(task[0])
-    );
-
-    return `
-        <article
-            class="schedule-day ${completedDay ? "completed" : ""}"
-            data-day-index="${dayIndex}"
-            data-exatas="${hasExatas}"
-            data-primeiro="${hasFirstDaySubjects}"
-        >
-            <button
-                class="day-header"
-                type="button"
-                aria-expanded="false"
-                aria-label="Abrir ${escapeHTML(day.title)}"
-            >
-                <span class="day-number">
-                    ${escapeHTML(day.date)}
-                </span>
-
-                <span class="day-heading">
-                    <h3>${escapeHTML(day.title)}</h3>
-                    <p>
-                        ${escapeHTML(day.weekday || day.subtitle || "")}
-                    </p>
-                </span>
-
-                <span class="day-tags">
-                    ${categories.map(category => `
-                        <span class="day-tag ${escapeHTML(category)}">
-                            ${escapeHTML(categoryLabel(category))}
-                        </span>
-                    `).join("")}
-                </span>
-
-                <span class="day-chevron" aria-hidden="true">
-                    ↓
-                </span>
-            </button>
-
-            <div class="day-content">
-                <p class="day-intro">
-                    ${escapeHTML(day.subtitle || "Marque cada atividade conforme concluir.")}
-                </p>
-
-                <div class="task-list">
-                    ${day.tasks.map((task, taskIndex) =>
-                        createTaskHTML(
-                            task,
-                            `day-${dayIndex}-task-${taskIndex}`
-                        )
-                    ).join("")}
-                </div>
-
-                <div class="day-footer">
-                    <span>
-                        ${day.tasks.length} atividades planejadas
-                    </span>
-
-                    <span class="day-completion">
-                        ${completedCount}/${day.tasks.length} concluídas
-                    </span>
-                </div>
-            </div>
-        </article>
-    `;
-}
+/* =========================================================
+   9. RENDERIZAÇÃO DO CRONOGRAMA
+   ========================================================= */
 
 function renderSchedule() {
-    if (!scheduleElement) {
-        console.error(
-            'Elemento "#schedule" não encontrado no index.html.'
-        );
-        return;
-    }
+    if (!scheduleElement) return;
 
-    scheduleElement.innerHTML = days
-        .map((day, index) => createDayHTML(day, index))
-        .join("");
+    scheduleElement.innerHTML = days.map((day, dayIndex) => {
+        const completedCount = day.tasks.filter((task, taskIndex) =>
+            isCompleted(`day-${dayIndex}-task-${taskIndex}`)
+        ).length;
+
+        const completedDay =
+            completedCount === day.tasks.length;
+
+        const categories = [
+            ...new Set(day.tasks.map(task => task[0]))
+        ];
+
+        const hasHumanas = categories.includes("humanas");
+
+        const hasExatas = categories.includes("exatas");
+
+        return `
+            <article
+                class="schedule-day ${completedDay ? "completed" : ""}"
+                data-day-index="${dayIndex}"
+                data-primeiro="true"
+                data-exatas="${hasExatas}"
+            >
+                <button
+                    class="day-header"
+                    type="button"
+                    aria-expanded="false"
+                >
+                    <span class="day-number">
+                        ${escapeHTML(day.date)}
+                    </span>
+
+                    <span class="day-heading">
+                        <span class="day-weekday">
+                            ${escapeHTML(day.weekday)}
+                        </span>
+
+                        <h3>${escapeHTML(day.title)}</h3>
+
+                        <p>${escapeHTML(day.subtitle)}</p>
+
+                        <span class="day-tags">
+                            ${categories.map(category => `
+                                <span class="day-tag ${escapeHTML(category)}">
+                                    ${escapeHTML(category)}
+                                </span>
+                            `).join("")}
+                        </span>
+                    </span>
+
+                    <span class="day-chevron" aria-hidden="true">
+                        ↓
+                    </span>
+                </button>
+
+                <div class="day-content">
+                    <div class="task-list">
+                        ${day.tasks.map((task, taskIndex) =>
+                            createTaskHTML(
+                                task,
+                                `day-${dayIndex}-task-${taskIndex}`
+                            )
+                        ).join("")}
+                    </div>
+
+                    <div class="day-footer">
+                        <span>${day.tasks.length} atividades planejadas</span>
+
+                        <span class="day-completion">
+                            ${completedCount}/${day.tasks.length} concluídas
+                        </span>
+                    </div>
+                </div>
+            </article>
+        `;
+    }).join("");
 
     applyFilter();
 }
 
 function renderAfterDays() {
-    if (!afterDaysElement) {
-        console.error(
-            'Elemento "#afterDays" não encontrado no index.html.'
-        );
-        return;
-    }
+    if (!afterDaysElement) return;
 
     afterDaysElement.innerHTML = afterDays.map((day, dayIndex) => {
         const completedCount = day.tasks.filter((task, taskIndex) =>
             isCompleted(`after-${dayIndex}-task-${taskIndex}`)
         ).length;
 
-        return `
-            <div class="after-day">
-                <strong>${escapeHTML(day.date)}</strong>
-                <span>${escapeHTML(day.title)}</span>
-                <span>${completedCount}/${day.tasks.length} tarefas</span>
+        const completedDay =
+            completedCount === day.tasks.length;
 
-                <div class="after-task-list">
-                    ${day.tasks.map((task, taskIndex) =>
-                        createTaskHTML(
-                            task,
-                            `after-${dayIndex}-task-${taskIndex}`
-                        )
-                    ).join("")}
+        return `
+            <article class="schedule-day ${completedDay ? "completed" : ""}">
+                <button
+                    class="day-header"
+                    type="button"
+                    aria-expanded="false"
+                >
+                    <span class="day-number">
+                        ${escapeHTML(day.date)}
+                    </span>
+
+                    <span class="day-heading">
+                        <h3>${escapeHTML(day.title)}</h3>
+                        <p>REVISÃO DE EXATAS E NATUREZA</p>
+                    </span>
+
+                    <span class="day-chevron" aria-hidden="true">
+                        ↓
+                    </span>
+                </button>
+
+                <div class="day-content">
+                    <div class="task-list">
+                        ${day.tasks.map((task, taskIndex) =>
+                            createTaskHTML(
+                                task,
+                                `after-${dayIndex}-task-${taskIndex}`
+                            )
+                        ).join("")}
+                    </div>
+
+                    <div class="day-footer">
+                        <span>${day.tasks.length} atividades planejadas</span>
+                        <span class="day-completion">
+                            ${completedCount}/${day.tasks.length} concluídas
+                        </span>
+                    </div>
                 </div>
-            </div>
+            </article>
         `;
     }).join("");
 }
 
 
 /* =========================================================
-   8. FILTROS
+   10. FILTROS
    ========================================================= */
 
 function applyFilter() {
-    const cards = $$(".schedule-day");
+    const dayCards = $$(".schedule-day", scheduleElement);
 
-    cards.forEach(card => {
+    dayCards.forEach(card => {
         let visible = true;
 
         if (currentFilter === "primeiro") {
@@ -1061,21 +1056,34 @@ function applyFilter() {
             visible = card.dataset.exatas === "true";
         }
 
+        if (currentFilter === "humanas") {
+            visible = card.querySelector(".day-tag.humanas") !== null;
+        }
+
         card.hidden = !visible;
     });
 
-    $$("[data-filter]").forEach(button => {
-        const active = button.dataset.filter === currentFilter;
-
-        button.classList.toggle("active", active);
-        button.setAttribute("aria-pressed", String(active));
-    });
+    if (afterDaysElement) {
+        afterDaysElement.hidden =
+            currentFilter === "primeiro" ||
+            currentFilter === "humanas";
+    }
 }
 
-function initializeFilters() {
-    $$("[data-filter]").forEach(button => {
+function setupFilters() {
+    const filterButtons = $$("[data-filter]");
+
+    filterButtons.forEach(button => {
         button.addEventListener("click", () => {
             currentFilter = button.dataset.filter || "todos";
+
+            filterButtons.forEach(item => {
+                item.classList.toggle(
+                    "active",
+                    item === button
+                );
+            });
+
             applyFilter();
         });
     });
@@ -1083,28 +1091,95 @@ function initializeFilters() {
 
 
 /* =========================================================
-   9. CLIQUES E CHECKBOXES
+   11. PROGRESSO
    ========================================================= */
 
-function initializeScheduleEvents() {
-    if (!scheduleElement) return;
+function updateProgressDisplay() {
+    const total = getTotalTaskCount();
+    const completed = getCompletedTaskCount();
 
-    scheduleElement.addEventListener("click", event => {
-        const header = event.target.closest(".day-header");
+    const percentage = total > 0
+        ? Math.round((completed / total) * 100)
+        : 0;
 
-        if (!header) return;
+    const remaining = Math.max(0, total - completed);
 
-        const card = header.closest(".schedule-day");
+    if (progressText) {
+        progressText.textContent = `${completed}/${total}`;
+    }
+
+    if (progressPercent) {
+        progressPercent.textContent = `${percentage}%`;
+    }
+
+    if (progressFill) {
+        progressFill.style.width = `${percentage}%`;
+    }
+
+    if (remainingText) {
+        remainingText.textContent =
+            `${remaining} atividades restantes`;
+    }
+
+    updateDayCompletion();
+}
+
+function updateDayCompletion() {
+    days.forEach((day, dayIndex) => {
+        const card = $(
+            `[data-day-index="${dayIndex}"]`,
+            scheduleElement
+        );
 
         if (!card) return;
 
-        const willOpen = !card.classList.contains("open");
+        const completedCount = day.tasks.filter((task, taskIndex) =>
+            isCompleted(`day-${dayIndex}-task-${taskIndex}`)
+        ).length;
 
-        card.classList.toggle("open", willOpen);
-        header.setAttribute("aria-expanded", String(willOpen));
+        const completedDay =
+            completedCount === day.tasks.length;
+
+        card.classList.toggle("completed", completedDay);
+
+        const completion = $(".day-completion", card);
+
+        if (completion) {
+            completion.textContent =
+                `${completedCount}/${day.tasks.length} concluídas`;
+        }
     });
 
-    scheduleElement.addEventListener("change", event => {
+    afterDays.forEach((day, dayIndex) => {
+        const card = afterDaysElement?.children[dayIndex];
+
+        if (!card) return;
+
+        const completedCount = day.tasks.filter((task, taskIndex) =>
+            isCompleted(`after-${dayIndex}-task-${taskIndex}`)
+        ).length;
+
+        const completedDay =
+            completedCount === day.tasks.length;
+
+        card.classList.toggle("completed", completedDay);
+
+        const completion = $(".day-completion", card);
+
+        if (completion) {
+            completion.textContent =
+                `${completedCount}/${day.tasks.length} concluídas`;
+        }
+    });
+}
+
+
+/* =========================================================
+   12. EVENTOS DAS TAREFAS
+   ========================================================= */
+
+function setupTaskEvents() {
+    document.addEventListener("change", event => {
         const checkbox = event.target.closest(
             'input[type="checkbox"][data-task-id]'
         );
@@ -1116,153 +1191,43 @@ function initializeScheduleEvents() {
             checkbox.checked
         );
 
-        updateDayCompletion(checkbox);
-    });
+        const taskItem = checkbox.closest(".task-item");
 
-    if (afterDaysElement) {
-        afterDaysElement.addEventListener("change", event => {
-            const checkbox = event.target.closest(
-                'input[type="checkbox"][data-task-id]'
-            );
-
-            if (!checkbox) return;
-
-            setCompleted(
-                checkbox.dataset.taskId,
+        if (taskItem) {
+            taskItem.classList.toggle(
+                "completed",
                 checkbox.checked
             );
-
-            updateAfterDayCompletion(checkbox);
-        });
-    }
-}
-
-function updateDayCompletion(checkbox) {
-    const card = checkbox.closest(".schedule-day");
-
-    if (!card) return;
-
-    const dayIndex = Number(card.dataset.dayIndex);
-    const day = days[dayIndex];
-
-    if (!day) return;
-
-    const completedCount = day.tasks.filter((task, taskIndex) =>
-        isCompleted(`day-${dayIndex}-task-${taskIndex}`)
-    ).length;
-
-    const footer = $(".day-completion", card);
-
-    if (footer) {
-        footer.textContent =
-            `${completedCount}/${day.tasks.length} concluídas`;
-    }
-
-    card.classList.toggle(
-        "completed",
-        completedCount === day.tasks.length
-    );
-}
-
-function updateAfterDayCompletion(checkbox) {
-    const card = checkbox.closest(".after-day");
-
-    if (!card) return;
-
-    const dayIndex = [...afterDaysElement.children].indexOf(card);
-    const day = afterDays[dayIndex];
-
-    if (!day) return;
-
-    const completedCount = day.tasks.filter((task, taskIndex) =>
-        isCompleted(`after-${dayIndex}-task-${taskIndex}`)
-    ).length;
-
-    const summary = card.querySelector(":scope > span:last-child");
-
-    if (summary) {
-        summary.textContent =
-            `${completedCount}/${day.tasks.length} tarefas`;
-    }
-}
-
-
-/* =========================================================
-   10. PROGRESSO GERAL
-   ========================================================= */
-
-function updateProgressDisplay() {
-    const total = getTotalTaskCount();
-    const completed = getCompletedTaskCount();
-
-    const percent = total > 0
-        ? Math.round((completed / total) * 100)
-        : 0;
-
-    const remaining = Math.max(0, total - completed);
-
-    if (progressText) {
-        progressText.textContent = `${completed} de ${total}`;
-    }
-
-    if (progressPercent) {
-        progressPercent.textContent = `${percent}%`;
-    }
-
-    if (progressFill) {
-        progressFill.style.width = `${percent}%`;
-        progressFill.setAttribute("role", "progressbar");
-        progressFill.setAttribute("aria-valuemin", "0");
-        progressFill.setAttribute("aria-valuemax", "100");
-        progressFill.setAttribute("aria-valuenow", String(percent));
-    }
-
-    if (remainingText) {
-        remainingText.textContent = remaining === 1
-            ? "1 atividade restante"
-            : `${remaining} atividades restantes`;
-    }
-
-    updateVisibleDaySummaries();
-}
-
-function updateVisibleDaySummaries() {
-    $$(".schedule-day").forEach(card => {
-        const dayIndex = Number(card.dataset.dayIndex);
-        const day = days[dayIndex];
-
-        if (!day) return;
-
-        const completedCount = day.tasks.filter((task, taskIndex) =>
-            isCompleted(`day-${dayIndex}-task-${taskIndex}`)
-        ).length;
-
-        const footer = $(".day-completion", card);
-
-        if (footer) {
-            footer.textContent =
-                `${completedCount}/${day.tasks.length} concluídas`;
         }
-
-        card.classList.toggle(
-            "completed",
-            completedCount === day.tasks.length
-        );
     });
 
-    renderAfterDays();
+    document.addEventListener("click", event => {
+        const header = event.target.closest(".day-header");
+
+        if (!header) return;
+
+        const card = header.closest(".schedule-day");
+        const content = $(".day-content", card);
+
+        if (!content) return;
+
+        const isOpen = card.classList.toggle("open");
+
+        header.setAttribute(
+            "aria-expanded",
+            String(isOpen)
+        );
+    });
 }
 
 
 /* =========================================================
-   11. RESTAURAR E LIMPAR PROGRESSO
+   13. RESETAR PROGRESSO
    ========================================================= */
 
-async function resetProgress() {
-    const confirmed = window.confirm(
-        "Deseja apagar todas as atividades concluídas? " +
-        "Essa alteração também será sincronizada com o Firebase " +
-        "se você estiver conectado."
+function resetProgress() {
+    const confirmed = confirm(
+        "Tem certeza de que deseja apagar todo o progresso?"
     );
 
     if (!confirmed) return;
@@ -1271,42 +1236,38 @@ async function resetProgress() {
 
     saveLocalProgress();
 
-    // Atualiza os checkboxes da lista principal.
-    $$('input[type="checkbox"][data-task-id]').forEach(checkbox => {
-        checkbox.checked = false;
-    });
-
     renderSchedule();
     renderAfterDays();
     updateProgressDisplay();
 
     if (currentUser && cloudReady) {
-        try {
-            await saveCloudProgress();
-
-            showToast("Progresso reiniciado e sincronizado.");
-        } catch (error) {
-            console.error("Erro ao limpar o progresso na nuvem:", error);
-
-            showToast(
-                "Progresso local apagado, mas a nuvem não foi atualizada.",
-                "error"
-            );
-        }
-    } else {
-        showToast("Progresso reiniciado neste navegador.");
+        scheduleCloudSave();
     }
+
+    showToast("Progresso reiniciado.");
+}
+
+function setupResetButton() {
+    if (!resetProgressButton) return;
+
+    resetProgressButton.addEventListener(
+        "click",
+        resetProgress
+    );
 }
 
 
 /* =========================================================
-   12. FIREBASE — CARREGAMENTO
+   14. FIREBASE — CARREGAMENTO DOS MÓDULOS
    ========================================================= */
 
-async function initializeFirebase() {
+async function loadFirebaseModules() {
     if (!firebaseConfigured()) {
-        setCloudStatus("Progresso salvo neste navegador", false);
-        return;
+        return null;
+    }
+
+    if (cloudModules) {
+        return cloudModules;
     }
 
     try {
@@ -1323,78 +1284,100 @@ async function initializeFirebase() {
         );
 
         cloudModules = {
-            ...authModule,
-            ...firestoreModule
+            initializeApp: appModule.initializeApp,
+            getAuth: authModule.getAuth,
+            GoogleAuthProvider: authModule.GoogleAuthProvider,
+            signInWithPopup: authModule.signInWithPopup,
+            signOut: authModule.signOut,
+            onAuthStateChanged: authModule.onAuthStateChanged,
+            getFirestore: firestoreModule.getFirestore,
+            doc: firestoreModule.doc,
+            getDoc: firestoreModule.getDoc,
+            setDoc: firestoreModule.setDoc,
+            serverTimestamp: firestoreModule.serverTimestamp
         };
 
-        firebaseApp = appModule.initializeApp(firebaseConfig);
-
-        auth = authModule.getAuth(firebaseApp);
-        db = firestoreModule.getFirestore(firebaseApp);
-
-        cloudReady = true;
-
-        authModule.onAuthStateChanged(auth, async user => {
-            currentUser = user || null;
-
-            updateGoogleButton();
-
-            if (!currentUser) {
-                setCloudStatus("Progresso salvo neste navegador", false);
-                return;
-            }
-
-            setCloudStatus("Sincronizando progresso...", false);
-
-            try {
-                await loadCloudProgress();
-
-                setCloudStatus("Sincronizado com a nuvem", true);
-            } catch (error) {
-                console.error(
-                    "Erro ao sincronizar os dados:",
-                    error
-                );
-
-                setCloudStatus("Erro na sincronização", false);
-
-                showToast(
-                    firebaseErrorMessage(error),
-                    "error"
-                );
-            }
-        });
-
-        setCloudStatus("Firebase conectado; aguardando login", true);
-
+        return cloudModules;
     } catch (error) {
-        console.error("Erro ao iniciar o Firebase:", error);
-
-        cloudReady = false;
-
-        setCloudStatus("Falha na conexão com o Firebase", false);
+        console.error(
+            "Não foi possível carregar os módulos Firebase:",
+            error
+        );
 
         showToast(
-            "Não foi possível iniciar o Firebase. Confira as credenciais e a conexão.",
+            "Erro ao carregar o Firebase. Verifique sua conexão.",
             "error"
         );
+
+        return null;
     }
 }
 
 
 /* =========================================================
-   13. FIREBASE — LOGIN E LOGOUT
+   15. FIREBASE — INICIALIZAÇÃO
    ========================================================= */
 
-async function signInWithGoogle() {
+async function initializeFirebase() {
     if (!firebaseConfigured()) {
-        if (setupModal && typeof setupModal.showModal === "function") {
-            setupModal.showModal();
-        } else {
-            showToast(
-                "Configure as credenciais do Firebase no script.js.",
-                "error"
-            );
+        setCloudStatus("Salvamento local", false);
+        return;
+    }
+
+    const modules = await loadFirebaseModules();
+
+    if (!modules) {
+        setCloudStatus("Firebase indisponível", false);
+        return;
+    }
+
+    try {
+        firebaseApp = modules.initializeApp(firebaseConfig);
+
+        auth = modules.getAuth(firebaseApp);
+
+        db = modules.getFirestore(firebaseApp);
+
+        modules.onAuthStateChanged(auth, async user => {
+            currentUser = user;
+
+            updateGoogleButton();
+
+            if (user) {
+                setCloudStatus("Conectando à nuvem...", false);
+
+                await loadCloudProgress();
+            } else {
+                cloudReady = false;
+
+                setCloudStatus("Salvamento local", false);
+            }
+        });
+
+    } catch (error) {
+        console.error(
+            "Erro ao inicializar Firebase:",
+            error
+        );
+
+        setCloudStatus("Erro no Firebase", false);
+    }
+}
+
+
+/* =========================================================
+   16. FIREBASE — LOGIN GOOGLE
+   ========================================================= */
+
+async function handleGoogleSignIn() {
+    if (!firebaseConfigured()) {
+        showToast(
+            "Configure o Firebase antes de entrar com Google.",
+            "error"
+        );
+
+        if (setupModal) {
+            setupModal.classList.add("open");
         }
 
         return;
@@ -1402,7 +1385,7 @@ async function signInWithGoogle() {
 
     if (!auth || !cloudModules) {
         showToast(
-            "Firebase ainda não está pronto. Tente novamente.",
+            "O Firebase ainda está carregando.",
             "error"
         );
 
@@ -1411,140 +1394,160 @@ async function signInWithGoogle() {
 
     try {
         if (currentUser) {
-            const shouldSignOut = window.confirm(
-                `Deseja sair da conta ${currentUser.email || "Google"}?`
-            );
-
-            if (!shouldSignOut) return;
-
             await cloudModules.signOut(auth);
 
-            currentUser = null;
-            updateGoogleButton();
+            showToast("Você saiu da sua conta.");
 
-            setCloudStatus("Progresso salvo neste navegador", false);
-
-            showToast("Você saiu da sua conta Google.");
             return;
         }
 
         const provider = new cloudModules.GoogleAuthProvider();
 
-        await cloudModules.signInWithPopup(auth, provider);
+        await cloudModules.signInWithPopup(
+            auth,
+            provider
+        );
 
     } catch (error) {
         console.error("Erro no login Google:", error);
 
-        showToast(firebaseErrorMessage(error), "error");
-    }
-}
-
-
-/* =========================================================
-   14. FIREBASE — CARREGAR PROGRESSO
-   ========================================================= */
-
-function getProgressDocumentReference() {
-    if (!db || !currentUser || !cloudModules) {
-        throw new Error("Firebase, banco ou usuário indisponível.");
-    }
-
-    return cloudModules.doc(
-        db,
-        "users",
-        currentUser.uid,
-        "progress",
-        "enem2026"
-    );
-}
-
-async function loadCloudProgress() {
-    if (!currentUser || !cloudReady || !cloudModules) return;
-
-    const documentReference = getProgressDocumentReference();
-
-    const snapshot = await cloudModules.getDoc(documentReference);
-
-    if (snapshot.exists()) {
-        const cloudData = normalizeProgress(snapshot.data());
-
-        // União entre progresso local e remoto:
-        // evita perder tarefas concluídas em outro dispositivo.
-        progress.completed = [
-            ...new Set([
-                ...progress.completed,
-                ...cloudData.completed
-            ])
-        ];
-    }
-
-    saveLocalProgress();
-
-    isApplyingCloudData = true;
-
-    renderSchedule();
-    renderAfterDays();
-    updateProgressDisplay();
-
-    isApplyingCloudData = false;
-
-    await saveCloudProgress();
-}
-
-
-/* =========================================================
-   15. FIREBASE — SALVAR PROGRESSO
-   ========================================================= */
-
-let cloudSaveTimeout = null;
-
-function scheduleCloudSave() {
-    if (!currentUser || !cloudReady || isApplyingCloudData) {
-        return;
-    }
-
-    clearTimeout(cloudSaveTimeout);
-
-    cloudSaveTimeout = setTimeout(async () => {
-        try {
-            await saveCloudProgress();
-            setCloudStatus("Sincronizado com a nuvem", true);
-        } catch (error) {
-            console.error(
-                "Erro ao salvar o progresso na nuvem:",
-                error
-            );
-
-            setCloudStatus("Erro ao sincronizar", false);
-
+        if (error.code === "auth/popup-blocked") {
             showToast(
-                "O progresso continua salvo localmente, mas a nuvem falhou.",
+                "O navegador bloqueou a janela de login.",
+                "error"
+            );
+        } else if (error.code === "auth/unauthorized-domain") {
+            showToast(
+                "Este domínio não está autorizado no Firebase.",
+                "error"
+            );
+        } else if (error.code === "auth/popup-closed-by-user") {
+            showToast(
+                "A janela de login foi fechada.",
+                "error"
+            );
+        } else {
+            showToast(
+                "Não foi possível realizar o login.",
                 "error"
             );
         }
-    }, 700);
+    }
 }
 
-async function saveCloudProgress() {
-    if (!currentUser || !cloudReady || !cloudModules) return;
 
-    if (cloudSyncing) {
+/* =========================================================
+   17. FIREBASE — CARREGAR PROGRESSO DA NUVEM
+   ========================================================= */
+
+async function loadCloudProgress() {
+    if (!currentUser || !db || !cloudModules) {
         return;
     }
 
-    cloudSyncing = true;
+    try {
+        const reference = cloudModules.doc(
+            db,
+            "users",
+            currentUser.uid,
+            "data",
+            "progress"
+        );
+
+        const snapshot = await cloudModules.getDoc(reference);
+
+        isApplyingCloudData = true;
+
+        if (snapshot.exists()) {
+            const cloudData = snapshot.data();
+
+            if (Array.isArray(cloudData.completed)) {
+                progress.completed = cloudData.completed;
+
+                saveLocalProgress();
+
+                renderSchedule();
+                renderAfterDays();
+                updateProgressDisplay();
+            }
+        } else {
+            await saveCloudProgress();
+        }
+
+        cloudReady = true;
+
+        setCloudStatus("Sincronizado", true);
+
+    } catch (error) {
+        console.error(
+            "Erro ao carregar progresso da nuvem:",
+            error
+        );
+
+        cloudReady = false;
+
+        setCloudStatus("Erro de sincronização", false);
+
+        showToast(
+            "Não foi possível carregar o progresso da nuvem.",
+            "error"
+        );
+    } finally {
+        isApplyingCloudData = false;
+    }
+}
+
+
+/* =========================================================
+   18. FIREBASE — SALVAR PROGRESSO NA NUVEM
+   ========================================================= */
+
+async function saveCloudProgress() {
+    if (!currentUser || !db || !cloudModules) {
+        return;
+    }
+
+    if (isApplyingCloudData) {
+        return;
+    }
 
     try {
-        const documentReference = getProgressDocumentReference();
+        cloudSyncing = true;
+
+        setCloudStatus("Sincronizando...", false);
+
+        const reference = cloudModules.doc(
+            db,
+            "users",
+            currentUser.uid,
+            "data",
+            "progress"
+        );
 
         await cloudModules.setDoc(
-            documentReference,
+            reference,
             {
                 completed: progress.completed,
-                updatedAt: cloudModules.serverTimestamp(),
-                email: currentUser.email || null
+                updatedAt: cloudModules.serverTimestamp()
             },
             { merge: true }
+        );
+
+        cloudReady = true;
+
+        setCloudStatus("Sincronizado", true);
+
+    } catch (error) {
+        console.error(
+            "Erro ao salvar progresso na nuvem:",
+            error
+        );
+
+        setCloudStatus("Falha na sincronização", false);
+
+        showToast(
+            "Não foi possível sincronizar o progresso.",
+            "error"
         );
     } finally {
         cloudSyncing = false;
@@ -1553,66 +1556,55 @@ async function saveCloudProgress() {
 
 
 /* =========================================================
-   16. ERROS DO FIREBASE
+   19. SINCRONIZAÇÃO AUTOMÁTICA
    ========================================================= */
 
-function firebaseErrorMessage(error) {
-    const code = error?.code || "";
+let cloudSaveTimeout = null;
 
-    const messages = {
-        "auth/popup-closed-by-user":
-            "A janela de login foi fechada antes da conclusão.",
+function scheduleCloudSave() {
+    if (!currentUser || !cloudReady) {
+        return;
+    }
 
-        "auth/popup-blocked":
-            "O navegador bloqueou a janela de login. Permita pop-ups para este site.",
+    clearTimeout(cloudSaveTimeout);
 
-        "auth/unauthorized-domain":
-            "Este domínio não está autorizado. Adicione-o em Firebase Authentication > Settings > Authorized domains.",
-
-        "auth/operation-not-allowed":
-            "O login Google não está ativado no Firebase Authentication.",
-
-        "auth/network-request-failed":
-            "Falha de conexão. Verifique sua internet e tente novamente.",
-
-        "permission-denied":
-            "O Firestore recusou o acesso. Confira as regras de segurança do banco.",
-
-        "unavailable":
-            "O Firestore está indisponível no momento. Tente novamente."
-    };
-
-    return messages[code] ||
-        error?.message ||
-        "Ocorreu um erro inesperado. Verifique o console do navegador.";
+    cloudSaveTimeout = setTimeout(() => {
+        saveCloudProgress();
+    }, 800);
 }
 
 
 /* =========================================================
-   17. INICIALIZAÇÃO DOS BOTÕES
+   20. EVENTOS DE AUTENTICAÇÃO
    ========================================================= */
 
-function initializeButtons() {
-    if (googleSignInButton) {
-        googleSignInButton.addEventListener("click", signInWithGoogle);
-    }
+function setupAuthentication() {
+    if (!googleSignInButton) return;
 
-    if (resetProgressButton) {
-        resetProgressButton.addEventListener("click", resetProgress);
-    }
+    googleSignInButton.addEventListener(
+        "click",
+        handleGoogleSignIn
+    );
 
-    if (closeSetupButton) {
+    updateGoogleButton();
+}
+
+
+/* =========================================================
+   21. MODAL DE CONFIGURAÇÃO
+   ========================================================= */
+
+function setupConfigurationModal() {
+    if (closeSetupButton && setupModal) {
         closeSetupButton.addEventListener("click", () => {
-            if (setupModal?.open) {
-                setupModal.close();
-            }
+            setupModal.classList.remove("open");
         });
     }
 
     if (setupModal) {
         setupModal.addEventListener("click", event => {
             if (event.target === setupModal) {
-                setupModal.close();
+                setupModal.classList.remove("open");
             }
         });
     }
@@ -1620,52 +1612,25 @@ function initializeButtons() {
 
 
 /* =========================================================
-   18. VERIFICAÇÃO DE ELEMENTOS HTML
-   ========================================================= */
-
-function checkRequiredElements() {
-    const requiredElements = [
-        ["#schedule", scheduleElement],
-        ["#afterDays", afterDaysElement],
-        ["#progressText", progressText],
-        ["#progressPercent", progressPercent],
-        ["#progressFill", progressFill],
-        ["#remainingText", remainingText]
-    ];
-
-    const missing = requiredElements
-        .filter(([, element]) => !element)
-        .map(([selector]) => selector);
-
-    if (missing.length > 0) {
-        console.warn(
-            "Alguns elementos esperados não foram encontrados no HTML:",
-            missing.join(", ")
-        );
-
-        console.warn(
-            "Confira se o index.html corresponde à versão do projeto ENEM Reta Final."
-        );
-    }
-}
-
-
-/* =========================================================
-   19. INICIALIZAÇÃO GERAL
+   22. INICIALIZAÇÃO DA APLICAÇÃO
    ========================================================= */
 
 async function initializeApp() {
-    checkRequiredElements();
-
     renderSchedule();
+
     renderAfterDays();
 
-    initializeFilters();
-    initializeScheduleEvents();
-    initializeButtons();
-
     updateProgressDisplay();
-    updateGoogleButton();
+
+    setupFilters();
+
+    setupTaskEvents();
+
+    setupResetButton();
+
+    setupAuthentication();
+
+    setupConfigurationModal();
 
     await initializeFirebase();
 
@@ -1688,5 +1653,3 @@ if (document.readyState === "loading") {
 } else {
     initializeApp();
 }
-
-
